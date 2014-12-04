@@ -1,264 +1,27 @@
 <html>
 
-<head>
 
-	<style type="text/css">
+  <head>
 
-	@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,800,300,700,400);
+      <meta charset="utf-8">
 
-       @import url(http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco);
+        <title>Food Photography</title>
 
-       @import url(https://raw.github.com/necolas/normalize.css/master/normalize.css);
+        <link type="text/css" rel="stylesheet" href="style.css">
 
-       * {
-
-           box-sizing: border-box;
-
-       }
-
-       html {
-
-           background: #f7bc10;
-
-           background-size: 1rem 1rem;
-
-           background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
-
-       }
-
-       body {
-
-           font-family: 'Open Sans', sans-serif;
-
-           font-size: 16px;
-
-           line-height: 1.4;
-
-           color: #333;
-
-           position: relative;
-
-           background-color: #FFFFCC;
-
-           width: 80%;
-
-           margin: 0 auto;
-
-           padding: 4em;
-
-       }
-
-       body:after { /* Clearfix */
-
-           content: '';
-
-           display: table;
-
-           clear: both;
-
-       }
-
-       h1 {
-
-           margin: 4rem 0;
-
-           font-size: 2.85rem;
-
-       }
-
-       h1, h3 {
-
-           font-family: 'Sue Ellen Francisco', sans-serif;
-
-           font-weight: bolder;
-
-       }
-
-       h2 { /* Section Headings:
-
-               Visually Hidden, but still available to Screenreaders */
-
-           position: absolute;
-
-           overflow: hidden;
-
-           clip: rect(0 0 0 0);
-
-           height: 1px; width: 1px;
-
-           margin: -1px; padding: 0; border: 0;
-
-       }
-
-       strong:nth-of-type(n+2) {
-
-           display: inline-block;
-
-           margin-left: 6.25rem;
-
-       }
-
-       p> strong + br {
-
-           display: none;
-
-       }
-
-       h3,
-
-       h3 + p { /* Menu Items and Descriptions */
-
-           border-top: 0.125rem solid #ddd;
-
-           padding: 1rem 0.25rem 1rem;
-
-           margin: 0;
-
-       }
-
-       h3 { /* Menu Item Names */
-
-           font-size: 2rem;
-
-           width: 10rem;
-
-           float: left;
-
-           clear: both;
-
-       }
-
-       h3 + p { /* Menu Item Descriptions */
-
-           width: 20em;
-
-           float: left;
-
-       }
-
-       h3:nth-of-type(3n+2) {
-
-           color: #057336;
-
-       }
-
-       h3:nth-of-type(3n+1) {
-
-           color: #860d0f;
-
-       }
-
-       h3:first-of-type,
-
-       h3:first-of-type + p {
-
-           margin-top: 2rem;
-
-       }
-
-       @media (max-width: 49em) {
-
-           body {
-
-               padding: 2em;
-
-               width: 90%;
-
-           }
-
-           h3,
-
-           h3 + p {
-
-               float: none;
-
-               width: 100%;
-
-               margin: 1rem 0;
-
-               padding: 0;
-
-           }
-
-           h3:first-of-type {
-
-               margin-top: 2em;
-
-           }
-
-           h3:first-of-type + p {
-
-               margin-top: auto;
-
-           }
-
-           h3 + p {
-
-               border-top: 0;
-
-           }
-
-           h3 {
-
-               padding-top: 1rem;
-
-           }
-
-           strong:nth-of-type(n+2) {
-
-               margin-left: auto;
-
-           }
-
-           p> strong + br {
-
-               display: inline;
-
-           }
-
-       }
-
-       @media (min-width: 65em) {
-
-           h3 {
-
-               width: 15rem;
-
-               padding-right: 0.5em;
-
-           }
-
-           h3 + p {
-
-               width: 30rem;
-
-           }
-
-       }
-
-
-
-	</style>
-
-<title>Molly E. Mozzarella's Pizza Parlor</title>
-
-</head>
+  </head>
 
 <body>
 
 <h1>Molly E. Mozzarella's Pizza Parlor</h1>
 
 <img src="pizza.png">
-<br>
 
 <h2>Prices</h2>
 
-<b>Large:</b> $18
-<br>
-<b>Medium:</b> $15
-<br>
-<b>Small:</b> $12
-<br>
+<prices>
+  <p>Large: $18 | Medium: $15 | Small: $12</p>
+</prices>
 
 <h3>The Luau</h3>
 <p>Hawaiian smoked ham, sweet maple bacon, pineapple, cheddar and mozzarella cheese, and our famous homemade pizza sauce.</p>

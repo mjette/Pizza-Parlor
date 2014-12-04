@@ -1,1 +1,46 @@
-This is my new css file.
+
+html {
+  background: #f7bc10;
+
+      }
+
+body {
+  font-family: ‘Arial Narrow’, sans-serif;
+  font-size: 16px;
+  line-height: auto;
+  color: #333;
+  position: relative;
+  background-color: #FFFFCC;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+       }
+
+h1 {
+  font-family: Liberator;
+  src: url(Liberator.otf);
+  font-size: 40px;
+  color: #006738;
+}
+
+h2 {
+  font-family: Liberator;
+  src: url(Liberator.otf);
+  font-size: 35px;
+  color: #000000;
+}
+
+h3 {
+  font-family: Liberator;
+  src: url(Liberator.otf);
+  font-size: 25px;
+  line-height: 2px;
+  color: #ED1C24;
+
+}
+
+prices {
+  text-align: left;
+  width: 800px;
+
+}
